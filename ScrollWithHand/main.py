@@ -38,8 +38,6 @@ while True:
                     print('outside', abs(index_y - thumb_y))
                     if abs(index_y - thumb_y) < 90:
                         pyautogui.click()
-                        pyautogui.sleep(1)
-
 
     cv2.imshow('Virtual Mouse', frame)
     cv2.waitKey(1)
